@@ -1,0 +1,29 @@
+{{> hearder}}
+<h2>Adicionar Post</h2>
+
+<form method="POST" enctype="multipart/form-data">
+ <label>
+    Imagen:
+    <input type="file" name="photo"/>
+  </label>
+  <br/>
+  <label>
+    Titulo:
+    <input type="text" name="title"/>
+  </label>
+    <br/>
+  <label>
+    Corpo:
+    <textarea name="body"></textarea>
+  </label>
+  <br/>
+  <label>
+    Tags:<small>(Separar Tags por Vírgula)</small><br/>
+    <input type="text" name="tags"> 
+  </label>
+  <br/>
+  <label>
+  <input  class="btn btn-primary" type="submit" value="salvar">
+  </label>
+
+</form>
